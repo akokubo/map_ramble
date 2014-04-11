@@ -14,6 +14,7 @@ class Checkin < ActiveRecord::Base
 
 #  private
   def Checkin.get_distance(lat1, lng1, lat2, lng2)
+    # Hubeny formula
     dy = (lat1 - lat2) / 360 * Math::PI
     dx = (lng1 - lng2) / 360 * Math::PI
     muy = (lat1 + lat2) / 2 / 360 * Math::PI
