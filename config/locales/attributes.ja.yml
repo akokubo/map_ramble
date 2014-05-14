@@ -13,6 +13,3 @@ ja:
       messages:
         created: "%{model}を保存しました。"
         updated: "%{model}を更新しました。"
-  errors:
-    messages:
-      not_saved: "エラー"
